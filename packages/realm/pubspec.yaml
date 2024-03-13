@@ -15,8 +15,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  realm_dart:
-    path: ../realm_dart
+  realm_dart: 1.9.1
 
 flutter:
   plugin:
