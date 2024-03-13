@@ -1,16 +1,15 @@
 {
   "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-  "search.exclude": {
-    "flutter/realm_flutter/ios/src/**": true,
-    "flutter/realm_flutter/lib/**": true,
-    "flutter/realm_flutter/test/**": true
-  },
+  "search.exclude": {},
   "dart.lineLength": 160,
   "cSpell.words": [
+    "apikey",
     "apikeys",
     "backlinks",
     "BEGINSWITH",
     "bson",
+    "dartdoc",
+    "dcli",
     "deallocated",
     "deleter",
     "dnum",
@@ -153,6 +152,14 @@
     "__mutex_base": "cpp",
     "coroutine": "cpp",
     "ranges": "cpp",
-    "span": "cpp"
-  }
+    "span": "cpp",
+    "__bit_reference": "cpp",
+    "__bits": "cpp",
+    "__config": "cpp",
+    "__debug": "cpp",
+    "__split_buffer": "cpp",
+    "__tuple": "cpp",
+    "__verbose_abort": "cpp"
+  },
+  "cmake.sourceDirectory": "${workspaceFolder}/packages/realm_dart"
 }
